@@ -5,7 +5,7 @@ This small driver provides a thin wrapper around a Grundig PN200 power supply us
 ## Quick usage
 
 ```python
-from grundig_PN200 import GrundigPN200
+from Grundig_PN200 import GrundigPN200
 
 # Create driver — change COM port to match your system
 psu = GrundigPN200(comport="COM3", baudrate=9600)
